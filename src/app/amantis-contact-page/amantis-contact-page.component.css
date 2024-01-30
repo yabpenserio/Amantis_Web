@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.body{
+    display: flex;
+    align-items: center;
+    background-color: #13262f;
+}
+.contact_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+
+}
+.contact_page__client{
+    width: 40%;
+    align-content: center;
+    margin-top: 40px;
+}
+.contact_page__client__form{
+    width: 500px;
+    margin-left: 100px;
+}
+.contact_page__client__form__personal_data{
+    display: flex;
+    justify-content: space-between;
+	margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-start: 0em;
+    padding-inline-start: 0em;
+    padding-inline-end: 0em;
+    padding-block-end: 0em;
+	border: none ;
+    width: 500px;
+}
+.contact_page__client__form__personal_data__inputs{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+.contact_page__client__form__personal_data__input{
+    width: 180px;
+    height: 30px;
+    font-family: 'Inter';
+    
+}
+.contact_page__client__form__input_text__area{
+    resize: none;
+    height: 120px;
+}
+.contact_page__client__form__input_text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact_page__client__form__input_submit__button{
+    font-size:20px;
+    width:300px;
+    font-weight: 600;
+    height: 65px;
+    color: #13262f;
+    background-color: #90a959;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3.5px;
+    border-color: #90a959;
+    margin-left: 90px;
+    margin-top: 20px;
+  
+}
+
+.label{
+    color: #d6d6d6;
+    font-weight: 600;
+    font-size: 24px;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    padding-bottom: 10px;
+}
+.personal_label{
+    color: #d6d6d6;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.contact_page__description{
+    width: 60%;
+    text-align: center;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.contact_page__description__header__text{
+    color: #d6d6d6;
+    font-size: 30px;
+    margin:0px 130px;
+    margin-bottom: 30px;
+}
+.header__text__color{
+    color:#90a959;
+}
+
+.contact_page__description__image__pc{
+    width: 500px;
+    height: 300px;
+}
+.contact_page__description__image__adress{
+    font-size: 12px;
+    color: #d6d6d6;
+    text-align: left;  
+    margin-left: 205px;  
+}

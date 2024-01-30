@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.body{
+    display: flex;
+    align-items: center;
+    background-color: #13262f;
+}
+.landing_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+.landing_page__text{
+    margin-left:40px;
+    width: 50%;
+}
+.landing_page__text__content__greetings{
+    font-size: 55px;
+    font-weight: 400;
+    color:#d6d6d6;
+    margin-block-end: 0px;
+    margin-bottom:15px ;
+}
+.name{
+    color:#90a959;
+    margin-block-start: 0px;
+    margin-top: 5px;
+    margin-block-end:0px;
+}
+.landing_page__text__content__description{
+    font-size: 20px;
+    font-weight: 400;
+    color:#d6d6d6;
+    margin-block-start:0px;
+}
+.landing_page__text__buttons{
+    margin-top:50px;
+}
+.landing_page__text__buttons__contact{
+    font-size:20px;
+    font-weight: 600;
+    width:220px;
+    height: 45px;
+    color:#90a959;
+    background-color: #13262f;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3.5px;
+    border-color: #90a959;
+    margin-left: 10px;
+
+}
+.landing_page__text__buttons__store{
+    font-size:20px;
+    width:220px;
+    font-weight: 600;
+    height: 45px;
+    color: #13262f;
+    background-color: #90a959;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3.5px;
+    border-color: #90a959;
+    margin-left: 50px;
+}
+.landing_page__image{
+    width: 50%;
+    text-align: center;   
+}
+.landing_page__image__pc{
+    width: 440px;
+    height: 400px;
+}

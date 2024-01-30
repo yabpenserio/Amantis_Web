@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo{
+    width:60px;
+    height:55px;
+    margin:10px;
+    margin-left:25px;
+
+}
+.header__links{
+    align-items: center;
+    display: flex;
+    border-color: #d6d6d6 ;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    margin-right: 20px;
+}
+.header__link{
+    font-family: 'Inter';
+    color: #d6d6d6;
+    margin:15px;    
+    text-decoration: none;
+}
+.header__link:hover{
+    color: #90a959;
+}
+.header__link__store{
+    font-family: 'Inter';
+    color: #90a959;
+    margin:15px;
+    margin-left: 0px;
+    text-decoration: none;
+}
