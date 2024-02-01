@@ -4,12 +4,16 @@
     display: flex;
     align-items: center;
     background-color: #13262f;
+    height: 100%;
+    margin-top: 7%;
 }
+
 .landing_page{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: 'Inter';
+    height: 100%;
 }
 .landing_page__text{
     margin-left:40px;

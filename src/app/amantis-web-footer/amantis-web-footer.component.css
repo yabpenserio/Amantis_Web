@@ -5,6 +5,9 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #13262f;
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }
 .footer__text{
     font-family: 'Inter';
