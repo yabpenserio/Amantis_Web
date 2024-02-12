@@ -5,13 +5,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 5%;
+    background-color: rgba(13,26,47,0.85);
 }
 .header__logo{
     width:60px;
     height:55px;
-    margin:10px;
-    margin-left:25px;
+    margin-top: 20px;
+    margin-left:40px;
 
 }
 .header__links{

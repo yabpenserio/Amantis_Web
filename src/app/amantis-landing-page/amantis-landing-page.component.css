@@ -3,9 +3,10 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: #13262f;
+    background-color: rgba(13,26,47,0.85);
+    background-image: none;
     height: 100%;
-    margin-top: 7%;
+    padding-top: 7.1%;
 }
 
 .landing_page{

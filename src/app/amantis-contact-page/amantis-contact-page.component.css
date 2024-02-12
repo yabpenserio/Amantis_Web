@@ -3,7 +3,9 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: #13262f;
+    background-color: rgba(13,26,47,0.85);
+    background-image: none;
+    padding-top: 4.6%;
 }
 .contact_page{
     display: flex;
@@ -40,7 +42,7 @@
     
 }
 .contact_page__client__form__personal_data__input{
-    width: 180px;
+    width: 220px;
     height: 30px;
     font-family: 'Inter';
     

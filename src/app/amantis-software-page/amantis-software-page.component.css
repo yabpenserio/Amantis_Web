@@ -3,7 +3,9 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: #13262f;
+    background-color: rgba(13,26,47,0.85);
+    padding-top: 1.95%;
+    background-image: none;
 }
 .software_page{
     display: flex;
@@ -39,7 +41,7 @@
     
 }
 .software_page__client__form__personal_data__input{
-    width: 180px;
+    width: 220px;
     height: 30px;
     font-family: 'Inter';
     
@@ -109,6 +111,6 @@
     color:#90a959;
 }
 .software_page__description__image__pc{
-    width: 550px;
+    width: 600px;
     height: 450px;
 }

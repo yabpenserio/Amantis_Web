@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.body{
+    display: flex;
+    align-items: center;
+    background-color: rgba(13,26,47,0.85);
+    background-image: none;
+    height: 100%;
+    
+}
+.tpv_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter';
+    height: 100%;
+}
+.tpv_page__text{
+    text-align: center;
+    margin: 15%;
+    margin-top: 3%;
+    margin-bottom: -50px;
+}
+.tpv_page__text__description{
+    font-size: 35px;
+    font-weight: 600;
+    color:#d6d6d6;
+    margin-block-start:0px;
+}
+.tpv_page__text__description__green{
+    color:#90a959;
+}
+.tpv_page__tpvslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.tpv_page__tpvslist__tpv__button{
+    width: 250px;
+    color: #13262f;
+    background-color: #90a959;
+    padding: 0px;
+    border-radius: 10px;
+    border: none;
+}
+.tpv_page__tpvslist__tpv__button__img{
+    width: 250px;
+    height: 250px;
+}
+.tpv_page__tpvslist__tpv__button__text{
+    font-size: 16px;
+    font-weight: 600;
+}
+.tpv_page__logo{
+    padding-bottom: 49px;
+}
+.tpv_page__logo__img{
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+}

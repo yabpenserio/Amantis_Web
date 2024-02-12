@@ -3,12 +3,17 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: #13262f;
+    background-color: rgba(13,26,47,0.85);
+    background-image: none;
+    padding-top: 1.95%;
+    overflow: none;
 }
 .pc_page{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    height: auto;
     font-family: 'Inter';
 
 }
@@ -39,7 +44,7 @@
     
 }
 .pc_page__client__form__personal_data__input{
-    width: 180px;
+    width: 220px;
     height: 30px;
     font-family: 'Inter';
     
