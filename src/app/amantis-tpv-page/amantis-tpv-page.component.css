@@ -3,7 +3,6 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: rgba(13,26,47,0.85);
     background-image: none;
     height: 100%;
     
@@ -19,13 +18,20 @@
     text-align: center;
     margin: 15%;
     margin-top: 3%;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
 }
 .tpv_page__text__description{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     color:#d6d6d6;
     margin-block-start:0px;
+}
+.tpv_page__text__sec_description{
+    font-size: 30px;
+    font-weight: 600;
+    color:#d6d6d6;
+    margin-block-start:0px;
+    text-align: left;
 }
 .tpv_page__text__description__green{
     color:#90a959;
@@ -46,17 +52,32 @@
 }
 .tpv_page__tpvslist__tpv__button__img{
     width: 250px;
-    height: 250px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
 .tpv_page__tpvslist__tpv__button__text{
     font-size: 16px;
     font-weight: 600;
+    height: 40px;
+   
+}
+.tpv_page__tpvslist__tpv__button__text0{
+    font-size: 16px;
+    font-weight: 600;
+    height: 30px;
+    padding-top: 10px;
+    vertical-align: center;
+
 }
 .tpv_page__logo{
-    padding-bottom: 49px;
+ margin-top: -30px;
 }
 .tpv_page__logo__img{
     width: 65px;
     height: 65px;
-    margin-left: 20px;
+    margin-left: 40px;
+    background-color: aliceblue;
+    border-radius: 60%;
 }

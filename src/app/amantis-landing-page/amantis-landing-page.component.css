@@ -3,7 +3,6 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: rgba(13,26,47,0.85);
     background-image: none;
     height: 100%;
     padding-top: 7.1%;
@@ -76,4 +75,34 @@
 .landing_page__image__pc{
     width: 440px;
     height: 400px;
+}
+@media only screen and (max-width: 992px){
+    .landing_page{
+        flex-direction: column;
+    }
+    .landing_page__text__content__greetings{
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .landing_page__image{
+        display: none;
+    }
+    .landing_page__text{
+        margin: auto;
+        width: 80%;
+        margin-left: 20px; 
+        margin-top: 0px;      
+    }
+    .landing_page__text__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .landing_page__text__buttons__store{
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .landing_page__text__buttons__contact{
+        width: 100%;
+    }
 }

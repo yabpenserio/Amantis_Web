@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AmantisPcPageComponent } from './amantis-pc-page.component';
+import { AmantisWipPageComponent } from './amantis-wip-page.component';
 
-describe('AmantisPcPageComponent', () => {
-  let component: AmantisPcPageComponent;
-  let fixture: ComponentFixture<AmantisPcPageComponent>;
+describe('AmantisWipPageComponent', () => {
+  let component: AmantisWipPageComponent;
+  let fixture: ComponentFixture<AmantisWipPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AmantisPcPageComponent]
+      imports: [AmantisWipPageComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(AmantisPcPageComponent);
+    fixture = TestBed.createComponent(AmantisWipPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

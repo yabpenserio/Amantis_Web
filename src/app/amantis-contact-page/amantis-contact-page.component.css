@@ -3,7 +3,6 @@
 .body{
     display: flex;
     align-items: center;
-    background-color: rgba(13,26,47,0.85);
     background-image: none;
     padding-top: 4.6%;
 }
