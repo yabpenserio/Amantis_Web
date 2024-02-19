@@ -3,8 +3,8 @@
 .body{
     display: flex;
     align-items: center;
-    background-image: none;
-    padding-top: 4.6%;
+    padding-top: 20px;
+    margin-top: 40px;
 }
 .contact_page{
     display: flex;
@@ -16,7 +16,7 @@
 .contact_page__client{
     width: 40%;
     align-content: center;
-    margin-top: 40px;
+    
 }
 .contact_page__client__form{
     width: 500px;
@@ -24,6 +24,7 @@
 }
 .contact_page__client__form__personal_data{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 	margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -100,6 +101,7 @@
 .contact_page__description__header__text{
     color: #d6d6d6;
     font-size: 30px;
+    font-weight: 600;
     margin:0px 130px;
     margin-bottom: 30px;
 }
@@ -108,12 +110,68 @@
 }
 
 .contact_page__description__image__pc{
-    width: 500px;
-    height: 300px;
+    max-width: 500px;
+    min-height: 300px;
 }
 .contact_page__description__image__adress{
     font-size: 12px;
     color: #d6d6d6;
     text-align: left;  
     margin-left: 205px;  
+    margin-top: 5px
+}
+@media only screen and (max-width: 1200px){
+    .contact_page__description__image__pc{
+        /*width: 350px;
+        height: 250px;*/
+        min-height: none;
+    }
+    .contact_page__description__header__text{
+        font-size: 26px;
+       
+    }
+}
+@media only screen and (max-width: 776px){
+    .contact_page{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .contact_page__client{
+        width: 100%;
+    }
+    .contact_page__client__form{
+        margin-left: 20px;
+        width: 300px;
+
+    }
+    .contact_page__description{
+        margin-left: 20px;
+    }
+    .contact_page__client__form__input_text{
+        width: 300px;
+    }
+    .contact_page__description__header__text{
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 24px;
+    }
+    .contact_page__description__image__pc{
+        width: 250px;
+        height: 150px;
+    }
+    .contact_page__client__form__personal_data{
+        width: 300px;
+    }
+    .contact_page__client__form__personal_data__input{
+        width: 120px;
+    }
+    .contact_page__client__form__input_submit__button{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .contact_page__description__image__adress{
+        margin-left: 0px;
+    }
 }

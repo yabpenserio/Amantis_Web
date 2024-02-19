@@ -8,9 +8,12 @@
     color:#d6d6d6;
     margin-block-start: 0px;
     width: 50%;
-    background-image: none;
+   
     margin-top: 30px;
     margin-left: 50px;
+}
+.wip_page__description{
+    font-weight: 900;
 }
 .wip_page__contactbutton{
     font-size:20px;
@@ -23,6 +26,18 @@
     border-style: solid;
     border-width: 3.5px;
     border-color: #90a959;
-
-
+    margin-top: 20px;
+}
+@media only screen and (max-width: 776px){
+    .wip_page{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inter';
+        font-size: 20px;
+        margin-block-start: 0px;
+        width: 80%;
+       
+        margin-top: 30px;
+        margin-left: 20px;
+    }
 }

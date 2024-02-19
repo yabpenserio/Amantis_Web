@@ -3,7 +3,7 @@
 .body{
     display: flex;
     align-items: center;
-    background-image: none;
+    
     height: 100%;
     
 }
@@ -66,8 +66,8 @@
 .tpv_page__tpvslist__tpv__button__text0{
     font-size: 16px;
     font-weight: 600;
-    height: 30px;
-    padding-top: 10px;
+    height: 40px;
+    padding-top: 15px;
     vertical-align: center;
 
 }
@@ -80,4 +80,20 @@
     margin-left: 40px;
     background-color: aliceblue;
     border-radius: 60%;
+}
+@media only screen and (max-width: 576px){
+    .tpv_page__tpvslist{
+        flex-direction: column;
+        text-align: center;
+    }
+    .tpv_page__text__description{
+        font-size: 20px;
+    }
+    .tpv_page__text__sec_description{
+        font-size: 20px;
+        
+    }
+    .tpv_page__tpvslist__tpv__button{
+        margin-bottom: 15px;
+    }
 }
