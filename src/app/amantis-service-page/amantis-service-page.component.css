@@ -2,5 +2,99 @@
 
 .body{
     display: flex;
-    min-height: 72vh;
+    flex-direction: column;
+    min-height: 84.5vh;
+    font-family: 'Inter';
+    padding-top: 4%;
+    align-items: center;
+}
+.service_page{
+    color: #d6d6d6;
+    width: 70%;
+}
+.service_page__header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: -50px;
+}
+.service_page__services{
+    font-size: 26px;
+
+}
+.service_page__services__service{
+    padding-top: 15%;
+}
+.service_page__services__service__description{
+    font-size: 20px;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 1%;
+}
+
+.service_page__services__service__summary{
+    display: flex;
+    flex-direction: row;
+}
+.service_page__services__service__summary2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.service_page__services__service__summary__wrapper{
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    justify-content: space-around;
+    
+}
+.service_page__services__service__summary__wrapper__image{
+    display: flex;
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+.service_page__services__service__summary__desc{
+    padding-top:50px;
+    width: 50%;
+}
+.service_page__services__service__summary__desc__title{
+    padding-left: 4%;
+    padding-bottom: 2%;
+    font-weight: 600;
+}
+.service_page__services__service__summary__desc__list{
+    padding-left: 15%;
+}
+.service_page__services__service__summary__desc__list__element{
+    font-size: 18px;
+    padding-bottom:2% ;
+}
+.service_page__services__service__end{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    text-align: left;
+    align-items: center;
+}
+.service_page__services__service__end__cheers{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 22px;
+    text-align: center;
+}
+.service_page__services__service__end__choose{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+.service_page__services__service__end__choose__list{
+    padding-left: 15%;
+    width: 60%;
+}
+.service_page__services__service__end__choose__list__element{
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+.head3{
+    font-size: 22px;
+    font-weight: 600;
 }
