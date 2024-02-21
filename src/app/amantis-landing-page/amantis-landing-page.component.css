@@ -3,7 +3,7 @@
 .body{
     display: flex;
     align-items: center;
-
+    min-height: 72vh;
     height: 100%;
     padding-top: 7.1%;
 }

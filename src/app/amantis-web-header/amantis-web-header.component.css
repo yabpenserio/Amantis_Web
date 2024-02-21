@@ -7,6 +7,18 @@
     justify-content: space-between;
     padding-right: 10px;
 }
+.header__logo__button{
+    display: flex;
+    justify-content: space-between;
+}
+.header__button{
+    display: none;
+    background-color: transparent;
+    height: 50px;
+    color: #d6d6d6;
+    margin-top: 20px;
+    border: none;
+}
 .header__logo{
     width:50px;
     height:45px;
@@ -39,8 +51,19 @@
     text-decoration: none;
 }
 @media only screen and (max-width: 576px){
+    .header{
+        flex-direction: column;
+    }
     .header__links{
-            font-size: 13px;
+        font-size: 13px;
+        flex-direction: column;
+        align-items: flex-end;
+        border:none;
+        margin-right: 0px;
+    }
+    .header__button{
+        display: block;
+        margin: none;
     }
     .header__link{
         margin: 15px;

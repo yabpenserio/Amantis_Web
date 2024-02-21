@@ -3,9 +3,7 @@
 .body{
     display: flex;
     align-items: center;
-    
-    height: 100%;
-    
+    min-height: 72vh;
 }
 .tpv_page{
     display: flex;
@@ -82,9 +80,18 @@
     border-radius: 60%;
 }
 @media only screen and (max-width: 576px){
+    .body{
+        min-height: 0vh;
+        max-height: 150vh;
+    }
+    .tpv_page{
+        height: auto;
+    }
     .tpv_page__tpvslist{
         flex-direction: column;
         text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
     .tpv_page__text__description{
         font-size: 20px;

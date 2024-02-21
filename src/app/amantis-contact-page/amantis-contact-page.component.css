@@ -122,23 +122,50 @@
 }
 @media only screen and (max-width: 1200px){
     .contact_page__description__image__pc{
-        /*width: 350px;
-        height: 250px;*/
+        width: 350px;
+        height: 250px;
         min-height: none;
     }
     .contact_page__description__header__text{
         font-size: 26px;
        
     }
+    .contact_page__client__form{
+        margin-left: 20px;
+        width: 400px;
+
+    }
+    .contact_page__description{
+        margin-left: 20px;
+    }
+    .contact_page__client__form__input_text{
+        width: 400px;
+    }
+    .contact_page__description__header__text{
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 24px;
+    }
+    .contact_page__client__form__personal_data{
+        width: 400px;
+    }
+    .contact_page__client__form__personal_data__input{
+        width: 150px;
+    }
 }
 @media only screen and (max-width: 776px){
+    .body{
+        max-height: 130vh;
+    }
     .contact_page{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
     
     .contact_page__client{
-        width: 100%;
+        width: 80%;
     }
     .contact_page__client__form{
         margin-left: 20px;
