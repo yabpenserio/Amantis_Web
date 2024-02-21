@@ -3,11 +3,13 @@ import { AmantisLandingPageComponent } from './amantis-landing-page/amantis-land
 import { AmantisContactPageComponent } from './amantis-contact-page/amantis-contact-page.component';
 import { AmantisWipPageComponent } from './amantis-wip-page/amantis-wip-page.component';
 import { AmantisTpvPageComponent } from './amantis-tpv-page/amantis-tpv-page.component';
+import { AmantisServicePageComponent } from './amantis-service-page/amantis-service-page.component';
 
 export const routes: Routes = [
     { path: 'landing_page', component: AmantisLandingPageComponent },
     { path: 'contact_page', component: AmantisContactPageComponent },
     { path: 'tpv_page', component: AmantisTpvPageComponent },
+    { path: 'service_page', component: AmantisServicePageComponent },
     { path: 'wip_page', component: AmantisWipPageComponent },
     { path: '**', component: AmantisLandingPageComponent },
 ];

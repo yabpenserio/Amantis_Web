@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './amantis-web-header.component.css'
 })
 export class AmantisWebHeaderComponent implements OnInit {
-  public active : boolean = false 
+  public active : boolean = true
 
   constructor() { }
   ngOnInit(): void {}

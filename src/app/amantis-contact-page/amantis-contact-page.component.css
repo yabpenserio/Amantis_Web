@@ -3,8 +3,8 @@
 .body{
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    margin-top: 40px;
+    padding-top: 4%;
+    min-height: 84.5vh;
 }
 .contact_page{
     display: flex;
@@ -19,8 +19,8 @@
     
 }
 .contact_page__client__form{
-    width: 500px;
-    margin-left: 100px;
+    width: 100%;
+    padding-left: 100px;
 }
 .contact_page__client__form__personal_data{
     display: flex;
@@ -33,16 +33,17 @@
     padding-inline-end: 0em;
     padding-block-end: 0em;
 	border: none ;
-    width: 500px;
+    width: 100%;
 }
 .contact_page__client__form__personal_data__inputs{
     display: flex;
     flex-direction: column;
+    width: 40%;
     padding-bottom: 20px;
     
 }
 .contact_page__client__form__personal_data__input{
-    width: 220px;
+    width: 100%;
     height: 30px;
     font-family: 'Inter';
     
@@ -50,18 +51,21 @@
 .contact_page__client__form__input_text__area{
     resize: none;
     height: 120px;
+    width: 100%;
 }
 .contact_page__client__form__input_text{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
+.contact_page__client__form__input_submit{
+    text-align: center;
+}
 .contact_page__client__form__input_submit__button{
     font-size:20px;
-    width:300px;
+    width:60%;
     font-weight: 600;
     height: 65px;
     color: #13262f;
@@ -70,8 +74,7 @@
     border-style: solid;
     border-width: 3.5px;
     border-color: #90a959;
-    margin-left: 90px;
-    margin-top: 20px;
+    
   
 }
 
@@ -109,55 +112,58 @@
     color:#90a959;
 }
 
+.contact_page__description{
+    display: flex;
+    flex-direction: column;
+}
+.contact_page__description__image{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
 .contact_page__description__image__pc{
-    max-width: 500px;
-    min-height: 300px;
+    width: 70%;
+    min-height: 350px;
+    
 }
 .contact_page__description__image__adress{
     font-size: 12px;
     color: #d6d6d6;
     text-align: left;  
-    margin-left: 205px;  
-    margin-top: 5px
+    width: 70%;
+    margin-top: 5px;
 }
 @media only screen and (max-width: 1200px){
-    .contact_page__description__image__pc{
-        width: 350px;
-        height: 250px;
-        min-height: none;
-    }
-    .contact_page__description__header__text{
-        font-size: 26px;
-       
-    }
+
     .contact_page__client__form{
         margin-left: 20px;
-        width: 400px;
 
     }
     .contact_page__description{
         margin-left: 20px;
     }
-    .contact_page__client__form__input_text{
-        width: 400px;
-    }
     .contact_page__description__header__text{
         margin: auto;
+        margin-left: 5%;
         margin-bottom: 20px;
         text-align: left;
-        font-size: 24px;
-    }
-    .contact_page__client__form__personal_data{
-        width: 400px;
-    }
-    .contact_page__client__form__personal_data__input{
-        width: 150px;
+        font-size: 26px;
     }
 }
-@media only screen and (max-width: 776px){
+@media only screen and (max-width: 992px){
     .body{
         max-height: 130vh;
     }
+    .contact_page__description__header__text{
+        margin-left: 0px;
+    }
+    .contact_page__description__image__pc{
+        min-height: 300px;
+         width: 100%;
+     }
+     .contact_page__description{
+        width: 80%;
+     }
     .contact_page{
         display: flex;
         flex-direction: column-reverse;
@@ -168,37 +174,17 @@
         width: 80%;
     }
     .contact_page__client__form{
-        margin-left: 20px;
-        width: 300px;
-
-    }
-    .contact_page__description{
-        margin-left: 20px;
-    }
-    .contact_page__client__form__input_text{
-        width: 300px;
-    }
-    .contact_page__description__header__text{
-        margin: auto;
-        margin-bottom: 20px;
-        text-align: left;
-        font-size: 24px;
-    }
-    .contact_page__description__image__pc{
-        width: 250px;
-        height: 150px;
-    }
-    .contact_page__client__form__personal_data{
-        width: 300px;
-    }
-    .contact_page__client__form__personal_data__input{
-        width: 120px;
-    }
-    .contact_page__client__form__input_submit__button{
-        margin-left: 0px;
-        margin-top: 5px;
+        padding: 0px;
     }
     .contact_page__description__image__adress{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .contact_page__client__form__input_submit__button{
+        width: 100%;
+    }
+    .contact_page__client__form{
         margin-left: 0px;
     }
 }
